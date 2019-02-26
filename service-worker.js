@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/leeseoki/react-lesion4/precache-manifest.6442743654387e0d6dc11d8b553e6dd4.js"
+  "/react-lesion4/precache-manifest.31ce69d1ee2e5b2b19ef1d6186578b7d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/leeseoki/react-lesion4/index.html", {
+workbox.routing.registerNavigationRoute("/react-lesion4/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
